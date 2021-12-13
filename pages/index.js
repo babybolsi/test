@@ -1,6 +1,6 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import BottomBar from "../components/BottomBar";
-import Profile from "../components/profile";
+import Profile from "../components/Profile";
 import Recent from "../components/Recent";
 import Main from "../components/Main";
 
