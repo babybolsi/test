@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: display-regular;
+  src: url(../public/tailwind.woff2);
+}
+body{
+  font-family: display-regular;
+}
+/* width */
+::-webkit-scrollbar {
+  height: 5px;
+  width:5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+body{
+    background-image: url(../public/bg-2.png);
+    background-size:cover;
+    
+}
+@media screen and (max-width: 1200px) {
+  .brani {
+    height:20rem;
+  }
+}
+.brani{
+    height:26.4rem;
+    
+}
