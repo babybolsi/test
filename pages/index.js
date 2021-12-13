@@ -1,8 +1,8 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
-import BottomBar from "../component/BottomBar";
-import Profile from "../component/profile";
-import Recent from "../component/Recent";
-import Main from "../component/Main";
+import BottomBar from "../components/BottomBar";
+import Profile from "../components/profile";
+import Recent from "../components/Recent";
+import Main from "../components/Main";
 
 export default function Home() {
   /*<Profile nome="Carmine" immagine="https://player.sharetubeaziende.com/carmine.jpg" />*/
