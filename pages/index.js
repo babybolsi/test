@@ -9,17 +9,17 @@ export default function Home() {
   return (
      
     <div className="flex flex-col h-screen">
-    <div className="flex h-full">
-      <div className="flex w-1/5">
-        <div className="flex flex-col h-full pl-4 py-4 w-full gap-y-4 ">
-        <Profile nome="Carmine" immagine="https://cdn.pixabay.com/photo/2020/06/19/10/16/white-floral-background-5316764__340.jpg" />
-        <Recent/>
+        <div className="flex h-full">
+            <div className="flex w-1/5">
+                <div className="flex flex-col h-full pl-4 py-4 w-full gap-y-4 ">
+                    <Profile nome="Carmine" immagine="https://cdn.pixabay.com/photo/2020/06/19/10/16/white-floral-background-5316764__340.jpg" />
+                    <Recent/>
+                </div>
+            </div>
+            <Main />
         </div>
-      </div>
-      <Main />
+        <BottomBar />
     </div>
-    <BottomBar />
-  </div>
 
 
   )
